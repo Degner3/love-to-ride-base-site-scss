@@ -1,0 +1,27 @@
+
+// _signup.scss
+@use 'color'  as *;
+
+
+.signup {
+    display: block;
+    background-color: $background-color;
+    color: $sign-in-color;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 5px;
+   
+    h1 {
+        color: $h1-2nd-color;
+    }
+
+    label {
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    input {
+        display: block;
+        margin-bottom: 20px;
+    }
+}

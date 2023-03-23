@@ -1,0 +1,20 @@
+
+// _local.scss
+@use 'color'  as *;
+
+
+.local {
+    display: block;
+    background-color: $site-color;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 5px;
+
+    h1 {
+        color: $h1-color;
+    }
+
+    p {
+        color: $p-color;
+    }
+}

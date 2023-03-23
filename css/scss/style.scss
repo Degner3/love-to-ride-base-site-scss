@@ -1,0 +1,30 @@
+
+// style.scss
+@use 'color'  as *;
+@use 'local';
+@use 'bikes';
+@use 'signup';
+@use 'about';
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 400px;
+    margin: auto;
+    background-color: $site-color;
+}
+
+header {
+    background-color: $header-color;
+    padding-left: 5px;
+
+    .logo {
+        width: 80%;
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+}
