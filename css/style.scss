@@ -1,0 +1,97 @@
+
+// style.scss
+
+
+
+$site-color: #e64448;
+$header-color: #fff;
+$h1-color: #3c3a48;
+$p-color: #eab244;
+$form-text-color: #e1e2df;
+$background-color: #89c5c7;
+$sign-in-color: #0b354b;
+$h1-2nd-color: #696c6d;
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 400px;
+    margin: auto;
+    background-color: $site-color;
+}
+
+header {
+    background-color: $header-color;
+    padding-left: 5px;
+
+    .logo {
+        width: 80%;
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+}
+
+.local {
+    display: block;
+    background-color: $site-color;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 5px;
+
+    h1 {
+        color: $h1-color;
+    }
+
+    p {
+        color: $p-color;
+    }
+}
+
+.bikes {
+    background-color: $form-text-color;
+    text-align: center;
+}
+
+.signup {
+    display: block;
+    background-color: $background-color;
+    color: $sign-in-color;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 5px;
+   
+    h1 {
+        color: $h1-2nd-color;
+    }
+
+    label {
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    input {
+        display: block;
+        margin-bottom: 20px;
+    }
+}
+
+.about {
+    display: block;
+    background-color: $p-color;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 5px;
+
+    h1 {
+        color: $site-color;
+    }
+
+    p {
+        color: $form-text-color;
+    }
+
+}
